@@ -4,7 +4,7 @@ object Build extends Build {
   lazy val baseSettings = Seq(
     scalaVersion := "$scala_version$",
     organization := "com.github.hexx",
-    scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked")
+    scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-language:_")
   )
 
   lazy val $name;format="camel"$ = Project(
