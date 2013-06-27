@@ -13,7 +13,7 @@ object Build extends Build {
   ).settings(
     baseSettings ++ seq(
       name := "$name;format="normalize"$",
-      version := "0.0.1",
+      version := "0.1.0",
       libraryDependencies ++= Seq(
       ),
       initialCommands in console += Seq(
